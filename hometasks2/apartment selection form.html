@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">    
+    <title>Выбрать квартиру</title>
+</head>
+<body>
+
+    <h1>Выбрать квартиру в СПб</h1>
+
+    <form action="#" method="post" name="find-animal">
+
+      <label for="metro">Выбрать метро или район</label>
+        <select id="metro" name="metro" multiple>
+            <optgroup label="Метро">
+                <option value="1" selected>Автово</option>
+                <option value="2">Адмиралтейская</option>
+                <option value="3">Академическая</option>
+                <option value="4">Балтийская</option> 
+                <option value="5">Бухарестская</option>
+                <option value="6">Василеостровская</option>   
+            </optgroup>  
+                  
+            <optgroup label="Район">
+                <option value="d1" selected>Центральный</option>
+                <option value="d2">Василеостровский</option>
+                <option value="d3">Калининский</option>
+                <option value="d4">Красногвардейский</option> 
+                <option value="d5">Невский</option>
+                <option value="d6">Купчино</option>   
+            </optgroup>  
+                         
+        </select>
+
+    <fieldset>
+        <legend>Количество комнат</legend>
+      
+          <label>
+            Студия:
+            <input type="radio" name="apartment" value="studio">
+          </label>
+          <label>
+            Однокомнатная:
+            <input type="radio" name="apartment" value="studio apartment">
+          </label>       
+          <label>
+            2х комнатная:
+            <input type="radio" name="apartment" value="one-bedroom apartment">
+          </label>
+          <label>
+            3х комнатная:
+            <input type="radio" name="apartment" value="two-bedroom apartment">
+          </label>
+          <label>
+            Все варианты:
+            <input checked type="radio" name="apartment" value="all options">
+          </label>
+            
+    </fieldset>
+
+    <label for="age">Год сдачи</label>
+            <select id="age" name="age">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+            </select>
+  
+    <fieldset>
+        <legend>Тип отделки</legend>
+          <label>
+            С отделкой:
+            <input type="radio" name="finish" value="finishing">
+          </label>
+          <label>
+            Без отделки:
+            <input type="radio" name="finish" value="without finishing">
+          </label>
+    </fieldset>
+    <fieldset>
+        <legend>Терраса</legend>
+          <label>
+            С террасой:
+            <input type="radio" name="terrace" value="terrace">
+          </label>
+          <label>
+            Без террасы:
+            <input type="radio" name="terrace" value="without a terrace">
+          </label>
+    </fieldset>
+  
+    <div>
+        <label for="area">Площадь, м2</label>
+        <input id="area" type="number" min="0" max="50" name="area">
+    </div>
+
+    <fieldset>
+      <legend>Стоимость руб</legend>
+      <input type="number" placeholder="от" autofocus
+      name="price"> 
+       
+      <input type="number" placeholder="до" autofocus
+      name="price"> 
+                                
+    </fieldset>
+  
+    <fieldset>
+       <legend>Класс квартиры</legend>
+      
+        <label>
+            Бизнес-класс:
+            <input type="checkbox" name="category" value="studio">
+        </label>
+        <label>
+            Премиум:
+            <input type="checkbox" name="category" value="studio apartment">
+        </label>       
+        <label>
+            Deluxe:
+            <input type="checkbox" name="category" value="one-bedroom apartment">
+        </label>        
+        <label>
+            Все варианты:
+            <input checked type="checkbox" name="category" value="all options">
+        </label>       
+            
+    </fieldset>
+
+    <fieldset>
+      <legend>Выбор этажа</legend>
+          <label>
+          1 этаж
+          <input type="checkbox" name="floor[]" value="1">
+          </label>    
+          <label>
+          2 этаж
+          <input type="checkbox" name="floor[]" value="2">
+          </label>
+
+          <label>
+          3 этаж
+          <input type="checkbox" name="floor[]" value="3">
+          </label>
+
+          <label>
+          4 этаж
+          <input type="checkbox" name="floor[]" value="4">
+          </label>
+
+          <label>
+          5 этаж
+          <input type="checkbox" name="floor[]" value="5">
+          </label>
+  </fieldset>
+
+    </form>      
+        
+</body>
+</html>

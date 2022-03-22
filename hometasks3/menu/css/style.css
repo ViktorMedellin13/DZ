@@ -1,0 +1,33 @@
+ul {
+background-color: #FFB300;
+}
+
+
+ul ul { /* не уверен что так правильно, но сработало */
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: red;   
+}
+
+.red {
+    border-bottom: solid red 5px;
+}
+
+li {
+    display: inline-block;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;    
+}
+
+
+
+
+
+    
+
+

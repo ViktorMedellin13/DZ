@@ -1,0 +1,22 @@
+body {
+    font-size: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.cite {
+    text-transform: uppercase;
+    color: red;
+}
+
+.line {
+    text-decoration: line-through #D50000;
+}
+a {
+    color: #D50000;
+}
+.bold {
+    font-weight: bolder;
+    color: #D50000;
+}
