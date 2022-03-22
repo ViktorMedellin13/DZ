@@ -1,0 +1,30 @@
+.container {
+    max-width: 1920px;
+    margin: 50px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 33px;
+    color: rgb(171, 142, 201);    
+}
+
+.flex-direction {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-direction a {
+    
+    text-align: center;
+}
+.item {
+    background-color: rgb(217, 211, 223);
+}
+
+a:hover {
+    border-bottom: 2px solid black;
+}
