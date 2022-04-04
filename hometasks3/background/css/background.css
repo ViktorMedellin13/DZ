@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://images.wallpapersden.com/image/download/hands-keyboard-computer_Z2hnaGmUmZqaraWkpJRmZ21lrWZlZ2k.jpg);
+    background-size: 1400px 700px;
+    background-attachment: fixed;
+}
+ul {
+    background-color: #B3E5FC;
+    list-style-type: none;
+}
+ul ul {
+    display: none;
+}
+li {
+    display: inline;
+    font-size: 40px;   
+    display: inline-block; 
+    padding: 20px;
+}
+a {
+    color: red;
+    text-decoration: none;
+    padding: 15px 20px;
+    
+}
+.bord {
+    border-bottom: 4px solid red;
+}

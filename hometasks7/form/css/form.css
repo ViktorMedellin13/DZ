@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #FFE0B2;
+    font-size: 20px;
+}
+ul {
+    background-color: #90A4AE;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    background-color: #90A4AE;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 45px;
+    display: block;
+}
+ul li ul {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    opacity: 0;
+    left: 0;
+    padding: 10px 45px;
+    text-align: center;
+}
+body {
+    background-color: rgb(189, 189, 189, 0.6);
+}
+ul li:hover> ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+section {
+    background-color: #90A4AE;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+  
+}
+form {
+    text-align: center;
+}
+div {
+    margin: 15px 0;
+    padding: 0 60px; 
+}
+label {
+    color: #FFE0B2;
+    font-size: 30px;
+}
+input[type=text] {
+    border-style: none;
+    outline-style: none;
+    border-bottom: 2px solid #FFE0B2;
+    background-color: transparent;
+    font-size: 30px;
+}
+input[type=password]{
+    border-style: none;
+    outline-style: none;
+    border-bottom: 2px solid #FFE0B2;
+    background-color: transparent;
+    font-size: 30px;
+}
+#remember {
+    display: none;
+}
+label::before {
+   border-radius: 3px;
+}
+#remember:checked + label::before {
+    content:"✓";
+    border: 1px solid #FFE0B2;
+}
+#form {
+    display: none;
+}
+#form:target {
+    display:block;
+}
+.enter {
+    position: relative;
+}
+.btn_enter {
+    background-color: #FFE0B2;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+.close {
+    background-color:transparent;
+    color: #FFE0B2;
+    border: none;
+    margin-left: auto;
+}
+.close::after {
+    content: "🞫";
+    width: 30px;
+    height: 30px;
+}
+.btn_close {
+    text-align: right;
+}

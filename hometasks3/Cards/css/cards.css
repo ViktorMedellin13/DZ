@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    max-width: 100%;
+}
+div {
+    display: inline-block;
+    background-color: gray;
+    max-width: 33%;
+    /* height: 500px; */
+}
+
+div.item {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+img {
+    width: 100%;
+    height: 350px;
+}
+.item img {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+p {    
+    width: 160px;
+}
